@@ -1,5 +1,5 @@
 {
-  "name": "react-image-gallery",
+  "name": "@votech/react-image-gallery",
   "version": "0.1.02",
   "description": "",
   "main": "./lib/ImageGallery.js",
