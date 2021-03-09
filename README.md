@@ -5,7 +5,7 @@
 1. install
    ```
    	npm i @votech/react-image-gallery
-   ,
+
    ```
 1. Step 2:
 1. step 3:
