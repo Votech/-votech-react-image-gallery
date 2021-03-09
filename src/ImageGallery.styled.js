@@ -16,13 +16,13 @@ export const StyledImageGallery = styled.div`
     grid-template-columns: 1fr;
     row-gap: 15px;
 
-    @media (min-width: 728px) {
+    ${({ mediaQueries }) => mediaQueries.tablet} {
       grid-template-columns: 1fr 1fr;
       column-gap: 15px;
     }
 
-    @media (min-width: 1024px) {
-      grid-template-columns: 1fr 1fr;
+    ${({ mediaQueries }) => mediaQueries.desktop} {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       column-gap: 15px;
     }
   }
