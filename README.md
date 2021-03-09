@@ -2,9 +2,7 @@
 
 ## Guide
 
-1. Replace contents in `/src` with your React component.
-1. Edit `webpack.config.js`, replace the following:
-   1. install
+1. install
    ```
    	npm i @votech/react-image-gallery
    ,
