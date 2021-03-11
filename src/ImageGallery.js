@@ -4,9 +4,9 @@ import { StyledImageGallery } from './ImageGallery.styled';
 
 import { RemoveScroll } from 'react-remove-scroll';
 
-import arrowLeft from './arrow-left.svg';
-import arrowRight from './arrow-right.svg';
-import iconX from './icon-x.svg';
+import arrowLeft from './assets/arrow-left.svg';
+import arrowRight from './assets/arrow-right.svg';
+import iconX from './assets/icon-x.svg';
 
 const ImageGallery = ({ images, mediaQueries }) => {
   const [scrollbarWidth, setScrollbarWidth] = useState(0);
